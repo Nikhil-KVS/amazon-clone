@@ -1,0 +1,562 @@
+* {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #EAEDED;
+
+}
+
+/* Start Navbar */
+.firstnav {
+    background-color: #131921;
+}
+
+#deliver {
+    float: right;
+}
+
+#deliver p {
+    font-size: .7em;
+    margin: 0;
+}
+
+#deliver span {
+    font-weight: 600;
+}
+
+
+.alllink {
+    max-width: 10px;
+
+}
+
+.alllink a {
+    border-radius: 5px 0 0 5px;
+    background-color: #DADADA;
+    padding: 12px
+}
+
+.navbar input {
+    min-height: 48px;
+    min-width: 580px;
+}
+
+.navbar .btn-success {
+    background-color: #F3A847;
+}
+
+.navbar form img {
+    max-width: 23px;
+}
+
+.countries {
+    max-width: 80px;
+}
+
+.countries img {
+    max-width: 30px;
+}
+
+.signin div,
+.signin span {
+    color: white
+}
+
+.signin #sign,
+#return {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+#navbarbold {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+
+/*********** Start Second Nav bar **************/
+
+.bg-body-nav2 {
+    /* --bs-bg-opacity: 1; */
+    background-color: #232F3E;
+    display: flex;
+}
+
+.navbar-opts {
+    color: white;
+    margin: 10px 20px;
+}
+
+.nav2 {
+    justify-content: right;
+}
+
+.hbl1 {
+    font-size: 12px;
+}
+
+.offcanvas-titleh {
+    background-color: #232f3e;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+#secnav {
+    background-color: #232F3E;
+
+}
+
+#secnav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#secnav ul li {
+    margin: 10px 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#secnav ul li:hover {
+    background-color: #767f8a;
+}
+
+#secnav ul li a {
+    text-decoration: none;
+}
+
+.open {
+    color: white;
+    cursor: pointer;
+    width: 70px;
+}
+
+.fsize a {
+    font-size: 14px;
+}
+
+/*********** End  Second Nav bar ************/
+
+
+/* Start category section */
+
+
+.categories {
+    background-color: white;
+}
+
+.categories p,
+a {
+    font-size: .7rem;
+}
+
+.categories a {
+    text-decoration: none;
+}
+
+.game {
+    font-weight: bold;
+}
+
+.health img {
+    max-width: 315px;
+}
+
+.ship img {
+    max-width: 220px;
+}
+
+.ship p {
+    font-size: 1.2rem;
+}
+
+.ship button {
+    background-color: #F7CA00;
+    border-radius: 10px;
+}
+
+.amazonbasic img {
+    max-width: 258px
+}
+
+.electronics {
+    max-width: 384px;
+    margin-left: 4px;
+}
+
+/* SLIDER 1 */
+.sec-2 {
+    width: 100%;
+    height: 380px;
+    height: 500px;
+    padding: 25px;
+    padding-top: 20px;
+}
+
+.slide-sec {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 10px 20px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+}
+
+.slide-sec h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    /* margin-top: 60px; */
+    margin-bottom: 20px;
+}
+
+.slide-sec h3 a {
+    font-size: 15px;
+    color: rgb(44, 145, 156);
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.product-slide {
+    display: flex;
+    margin-top: 5px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.product-slide li {
+    list-style: none;
+    margin-right: 30px;
+    /* margin-top: 10px; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+}
+
+.product-slide img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.product-slide li div {
+    color: crimson;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-slide span {
+    background-color: crimson;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product-slide p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-slide::-webkit-scrollbar {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.product-slide::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.l-btn,
+.r-btn {
+    background-color: transparent;
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 30%;
+    position: absolute;
+    border: 3px solid transparent;
+}
+
+.r-btn i,
+.l-btn i {
+    color: rgb(54, 54, 54);
+    position: absolute;
+    font-size: 20px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+}
+
+.l-btn {
+    border-radius: 0 5px 5px 0;
+    left: 20px;
+}
+
+.r-btn {
+    border-radius: 5px 0 0 5px;
+    right: 20px;
+}
+
+.l-btn:hover {
+    border: 3px solid rgb(2, 150, 150);
+}
+
+.r-btn:hover {
+    border: 3px solid rgb(2, 150, 150);
+}
+
+
+
+
+
+
+/* SLIDER 2 */
+.sec-3 {
+    height: 380px;
+}
+
+.slide-sec2 {
+    padding: 0px 20px 0px 20px;
+    height: 320px;
+}
+
+.slide-sec2 h3 {
+    margin-top: 20px;
+}
+
+.l-btn2,
+.r-btn2 {
+    top: 35%;
+}
+
+
+
+
+
+/* Start Footer  */
+
+footer a {
+    color: #fff;
+}
+
+footer .top {
+    background: #37475a;
+}
+
+footer .top a {
+    padding: 17px;
+    width: 100%;
+    display: inline-block;
+}
+
+footer .top a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .top:hover {
+    background: #485769;
+}
+
+footer .center {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+footer ul {
+    margin: 30px 40px 30px 0;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+footer .middle {
+    background: #232f3e;
+}
+
+footer .middle h3 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer .middle li {
+    position: relative;
+}
+
+footer .middle .logo {
+    background: transparent url('../img/logo.png') no-repeat 0 0;
+    background-size: 76px;
+    width: 76px;
+    height: 23px;
+    display: block;
+    border: none !important;
+    margin-right: 60px;
+    position: absolute;
+    top: -14px;
+    left: -120px;
+}
+
+footer .middle a {
+    color: #ddd;
+    font-size: 13px;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+footer ul.copy {
+    display: inline-block;
+    width: 100%;
+}
+
+footer ul.copy li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #999;
+    font-size: 11px;
+}
+
+.bnone {
+    border: 1px solid transparent;
+}
+
+.bwant {
+    border: 1px solid #848688;
+    border-radius: 3px;
+}
+
+footer .middle .copy {
+    border-top: 1px solid #3a4553;
+    padding: 30px 20px 20px 20px;
+    margin: 10px 0px;
+}
+
+footer .middle .copy a {
+    padding: 10px 30px 10px 10px;
+    color: #ccc;
+}
+
+footer .middle .copy a:hover {
+    text-decoration: none;
+    border-color: #8D9096;
+}
+
+footer .middle .fa-globe {
+    margin-right: 5px;
+}
+
+footer .middle .flag-icon-us {
+    background-image: url('https://sp-bootstrap.global.ssl.fastly.net/8.0.0/images/flags/us.svg');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 1em;
+    width: 1.3em;
+    margin-right: 7px;
+    background-position: 0 2px;
+}
+
+footer .bottom {
+    background: #131a22;
+}
+
+footer .bottom ul {
+    margin-right: 0;
+}
+
+footer .bottom li {
+    margin-bottom: 15px;
+}
+
+footer .bottom a {
+    color: #ddd;
+    font-size: 11px;
+    line-height: 11px;
+    text-decoration: none;
+}
+
+footer .bottom a span {
+    color: #999;
+    font-size: 10px;
+}
+
+
+/* End Footer  */
+
+
+
+
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .categories {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+    .health img,
+    .amazonbasic img {
+        margin: auto;
+    }
+
+    .health a,
+    .amazonbasic a,
+    .categories a {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .top {
+        margin-top: 80px;
+    }
+
+    .navbar input {
+        min-height: 40px;
+        min-width: 300px;
+    }
+
+    #secnav ul li {
+        margin: 5px;
+        padding: 5px 5px
+    }
+}
+
+.container-fluid.secondsec {
+    position: absolute;
+    margin-top: -250px;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    .container-fluid.secondsec {
+        position: relative;
+        margin-top: 10px !important;
+    }
+}
